@@ -98,7 +98,7 @@ export default function Form({ isEdit }) {
             <form onSubmit={handleSubmit}>
               <div className="mb-4">
                 <label htmlFor="charName" className="form-label">
-                 Char Name
+                  Char Name
                 </label>
                 <input
                   type="text"
@@ -132,7 +132,7 @@ export default function Form({ isEdit }) {
               </div>
               <div className="mb-4">
                 <label htmlFor="charAuth" className="form-label">
-                Char Auth
+                  Char Auth
                 </label>
                 <input
                   type="text"

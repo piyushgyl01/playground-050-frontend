@@ -12,7 +12,7 @@ import ProtectedRoute from "./components/ProtectedRoute";
 
 export default function App() {
   return (
-  <AuthProvider>
+    <AuthProvider>
       <Router>
         <Navbar />
         <Routes>
@@ -26,5 +26,6 @@ export default function App() {
           </Route>
         </Routes>
       </Router>
-    </AuthProvider>  )
+    </AuthProvider>
+  );
 }
